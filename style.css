@@ -4,7 +4,34 @@
   box-sizing: border-box;
 }
 
+.main {
+  min-height: 100vh;
+  background-color: var(--VeryDarkBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.container {
+  display: flex;
+  width: 70%;
+  height: 390px;
+  border: 1px solid white;
+  background-color: var(--DarkDesaturatedBlue);
+  border-radius: 10px;
+}
+
+.content {
+  border: 1px solid red;
+  width: 50%;
+  height: 390px;
+}
+
+.photo {
+  border: 1px solid aqua;
+  width: 50%;
+  height: 390px;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 
