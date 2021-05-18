@@ -65,6 +65,32 @@
 .info-container p {
   color: var(--SlightlyTransparentWhite);
   padding-bottom: 50px;
+  width: 350px;
+}
+
+.headings {
+  display: flex;
+}
+
+.headings p {
+  margin-right: 40px;
+}
+
+.stat-headings {
+  font-size: 2rem;
+  height: 0;
+  color: var(--SlightlyTransparentWhiteStatHeadings);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.headings-label {
+  display: flex;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: var(--SlightlyTransparentWhiteStatHeadings);
 }
 
 span {
