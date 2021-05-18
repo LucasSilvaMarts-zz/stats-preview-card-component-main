@@ -21,7 +21,6 @@
 }
 
 .content {
-  border: 1px solid red;
   width: 50%;
   height: 390px;
 }
@@ -58,14 +57,16 @@
 
 .info-container h1 {
   color: var(--White);
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   padding-bottom: 30px;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .info-container p {
   color: var(--SlightlyTransparentWhite);
   padding-bottom: 50px;
-  width: 350px;
+  width: 360px;
+  font-family: 'Inter', sans-serif;
 }
 
 .headings {
@@ -77,20 +78,18 @@
 }
 
 .stat-headings {
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: 0;
-  color: var(--SlightlyTransparentWhiteStatHeadings);
+  color: var(--White);
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.headings-label {
-  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .label {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--SlightlyTransparentWhiteStatHeadings);
+  font-weight: 100;
 }
 
 span {
