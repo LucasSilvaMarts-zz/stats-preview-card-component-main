@@ -31,6 +31,7 @@
   border: 1px solid aqua;
   width: 50%;
   height: 390px;
+  background-image: url(./images/image-header-desktop.jpg);
 }
 
 .attribution { font-size: 11px; text-align: center; }
