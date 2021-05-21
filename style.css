@@ -54,5 +54,20 @@
 
 .info-container {
   border: 1px solid aqua;
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  /* top | right | bottom | left */
+  padding: 10% 10% 10% 10%;
+}
+
+.info-container h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+}
+
+.info-container h1 span {
+  color: var(--Violet);
 }
