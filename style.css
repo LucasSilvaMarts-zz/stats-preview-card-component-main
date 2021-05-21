@@ -27,17 +27,32 @@
 
 .photo {
   background-image: url(./images/image-header-mobile.jpg);
-  /* border: 1px solid red; */
-  height: 35%;
+  height: 45%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
   width: 100%;
   order: -1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.photo::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: var(--SoftViolet);
+  opacity: 0.6;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .info-container {
   border: 1px solid aqua;
-  height: 50%;
+  height: 100%;
 }
