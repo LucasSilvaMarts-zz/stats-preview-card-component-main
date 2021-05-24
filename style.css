@@ -125,8 +125,9 @@
     background-size: contain;
     position: relative;
     z-index: 3;
-    width: 92%;
+    width: 86%;
     order: -1;
+    border-top-left-radius: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -140,6 +141,7 @@
     content: '';
     background-color: var(--SoftViolet);
     opacity: 0.6;
+    border-top-left-radius: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -148,7 +150,19 @@
   .info-container {
     /* top | right | bottom | left */
     /* padding: 5%  5% 0 5% 0; */
-    padding: 5em 2em 2em;
+    padding: 55px 6em 47px 6em;
+    text-align: left;
+  }
+
+  .info-container h1 {
+    font-size: 2.4rem;
+    text-align: inherit;
+  }
+
+  .info-container p {
+    text-align: inherit;
+    font-size: 1rem;
+    width: 80%
   }
 
   .headings {
@@ -156,7 +170,7 @@
   }
 
   .headings h4 {
-    margin-right: 40px;
+    margin-right: 13%;
   }
 
 }
